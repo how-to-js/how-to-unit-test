@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/how-to-js/how-to-unit-test/issues"
   },
-  "homepage": "https://github.com/how-to-js/how-to-unit-test#readme"
+  "homepage": "https://github.com/how-to-js/how-to-unit-test#readme",
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  }
 }
